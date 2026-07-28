@@ -1,0 +1,168 @@
+.contactPage {
+  padding-top: 100px;
+}
+
+.hero {
+  padding: 80px 0 20px;
+  text-align: center;
+
+  .section-subtitle {
+    margin: 0 auto;
+  }
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.earthWrapper {
+  height: 450px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+
+  @media (max-width: 900px) {
+    height: 300px;
+  }
+}
+
+.form {
+  padding: 40px;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 28px;
+  }
+}
+
+.field {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--gray);
+    margin-bottom: 8px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: var(--white);
+    font-size: 0.95rem;
+    font-family: var(--font-body);
+    outline: none;
+    transition: var(--transition);
+
+    &::placeholder {
+      color: var(--gray-dark);
+    }
+
+    &:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15);
+    }
+  }
+
+  select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2394A3B8' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+
+    option {
+      background: var(--bg-card);
+      color: var(--white);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.contactCard {
+  padding: 45px;
+  border-radius: 24px;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: whitesmoke;
+    line-height: 1.8;
+    margin-bottom: 35px;
+  }
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.item {
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+  }
+
+  h4 {
+    margin-bottom: 8px;
+    color: var(--white);
+    font-size: 1rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: .95rem;
+    word-break: break-word;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.stats {
+  padding: 60px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.value {
+  font-family: var(--font-heading);
+  font-size: 2.75rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: var(--gray);
+  font-size: 0.95rem;
+}

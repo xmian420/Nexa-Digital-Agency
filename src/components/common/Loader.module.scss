@@ -1,0 +1,73 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  z-index: 2;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.nexa {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.digital {
+  color: var(--white);
+}
+
+.progressBar {
+  width: 240px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  margin: 0 auto 24px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.text {
+  color: var(--gray);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--primary);
+}
