@@ -4,25 +4,25 @@ import styles from "./Testimonials.module.scss";
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "CEO, TechFlow",
-    avatar: "SC",
+    name: "Ali Raza",
+    role: "Real Estate Client",
+    avatar: "AR",
     rating: 5,
-    text: "Nexa transformed our online presence completely. The attention to detail and technical excellence exceeded all expectations.",
+    text: "Nexa built a clean and modern real estate website for our business. The design looks professional, works smoothly, and our clients love the experience.",
   },
   {
-    name: "Marcus Johnson",
-    role: "Founder, GrowthLab",
-    avatar: "MJ",
+    name: "Ahmed Khan",
+    role: "Dashboard Client",
+    avatar: "AK",
     rating: 5,
-    text: "Working with Nexa was seamless. They delivered a stunning dashboard that our entire team loves using every day.",
+    text: "The analytics dashboard was exactly what we needed. It is fast, easy to use, and presents our data in a clear and professional way.",
   },
   {
-    name: "Elena Rodriguez",
-    role: "Marketing Director, Bloom",
-    avatar: "ER",
+    name: "Usman Malik",
+    role: "Business Website Client",
+    avatar: "UM",
     rating: 5,
-    text: "Their SEO and marketing strategies increased our organic traffic by 300% in just six months. Incredible results.",
+    text: "The team delivered our business website on time with excellent quality. Communication was smooth, and the final result exceeded our expectations.",
   },
 ];
 
