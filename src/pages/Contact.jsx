@@ -89,26 +89,22 @@ const Contact = () => {
               <div className={styles.contactInfo}>
                 <div className={styles.item}>
                   <h4>Email</h4>
-                  <a href="mailto:yourcompany@gmail.com">
-                    smian6644@gmail.com <br />
+                  <a href="mailto:tnexadigital@gmail.com">
+                    tnexadigital@gmail.com <br />
                   </a>
                 </div>
 
                 <div className={styles.item}>
                   <h4>Instagram</h4>
-                  <a
-                    href="https://instagram.com/yourcompany"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @yourcompany
+                  <a href="https://www.instagram.com/tnexadigital/">
+                    Nexa Digital Agency
                   </a>
                 </div>
 
                 <div className={styles.item}>
                   <h4>LinkedIn</h4>
                   <a
-                    href="https://linkedin.com/company/yourcompany"
+                    href="https://www.instagram.com/tnexadigital/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -119,11 +115,11 @@ const Contact = () => {
                 <div className={styles.item}>
                   <h4>WhatsApp</h4>
                   <a
-                    href="https://wa.me/923001234567"
+                    href="https://wa.me/923004612583"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    +92 300 1234567
+                    +92 300 4612583
                   </a>
                 </div>
               </div>
