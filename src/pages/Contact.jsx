@@ -102,33 +102,32 @@ const Contact = () => {
                 </div>
 
                 <div className={styles.item}>
-                  <h4>LinkedIn</h4>
-                  <a
-                    href="https://www.instagram.com/tnexadigital/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    linkedin.com/company/yourcompany
-                  </a>
-                </div>
-
-                <div className={styles.item}>
                   <h4>WhatsApp</h4>
                   <a
-                    href="https://wa.me/923004612583"
+                    href="https://wa.me/923154276530"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    +92 300 4612583
+                    0315 4276530
                   </a>
                 </div>
               </div>
 
               <a
-                href="mailto:yourcompany@gmail.com"
+                href="mailto:tnexadigital@gmail.com"
                 className="btn btn-primary"
               >
                 Send Email
+              </a>
+
+              <a href="https://wa.me/923154276530" className="btn btn-primary">
+                Whats Up
+              </a>
+              <a
+                href="https://www.instagram.com/tnexadigital/"
+                className="btn btn-primary"
+              >
+                Instagram
               </a>
             </motion.div>
           </div>

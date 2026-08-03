@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaInstagram,
   FaDribbble,
+  FaWhatsapp,
 } from "react-icons/fa";
 import styles from "./Footer.module.scss";
 
@@ -29,23 +30,16 @@ const Footer = () => {
             </p>
             <div className={styles.socials}>
               <a
-                href="https://linkedin.com"
+                href="https://wa.me/923154276530"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <FaLinkedinIn />
+                <FaWhatsapp />
               </a>
+
               <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/tnexadigital/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
